@@ -1,5 +1,79 @@
 # Changelog
 
+## 7.8.0
+
+### Minor Changes
+
+- [#1273](https://github.com/t3-oss/create-t3-app/pull/1273) [`10a5e0b`](https://github.com/t3-oss/create-t3-app/commit/10a5e0b2fe91b887526960515c6422791a77c724) Thanks [@juliusmarminge](https://github.com/juliusmarminge)! - feat: add errorformatter for zod errors
+
+### Patch Changes
+
+- [#1263](https://github.com/t3-oss/create-t3-app/pull/1263) [`8dc6e33`](https://github.com/t3-oss/create-t3-app/commit/8dc6e33ea149851de97f84e8d8388accdd5547d9) Thanks [@mkreuzmayr](https://github.com/mkreuzmayr)! - search for tsconfig relative to eslintrc
+
+- [#1279](https://github.com/t3-oss/create-t3-app/pull/1279) [`ae5cd40`](https://github.com/t3-oss/create-t3-app/commit/ae5cd405c9d5bb672e3971c496d437a7a05b3f8f) Thanks [@arielconti10](https://github.com/arielconti10)! - fix: remove //@ts-check comment in next.config
+
+## 7.7.0
+
+### Minor Changes
+
+- [#1268](https://github.com/t3-oss/create-t3-app/pull/1268) [`db394ed`](https://github.com/t3-oss/create-t3-app/commit/db394edf396288dd754f5743ae2fe26a39c70ef5) Thanks [@c-ehrlich](https://github.com/c-ehrlich)! - ignore unused vars that begin with underscore
+
+## 7.6.0
+
+### Minor Changes
+
+- [#1255](https://github.com/t3-oss/create-t3-app/pull/1255) [`601cbb2`](https://github.com/t3-oss/create-t3-app/commit/601cbb23075cd33170c5b3ea2b1b0dbb0f2d5716) Thanks [@justasam](https://github.com/justasam)! - Add import alias validation
+
+## 7.5.9
+
+### Patch Changes
+
+- [#1252](https://github.com/t3-oss/create-t3-app/pull/1252) [`d8be181`](https://github.com/t3-oss/create-t3-app/commit/d8be181fd71dafba8c4c1358fea38b70bca8171a) Thanks [@ggrochow](https://github.com/ggrochow)! - Rename \_eslint.cjs before intializing git repo to ensure .eslint.cjs is added by default
+
+## 7.5.8
+
+### Patch Changes
+
+- [#1249](https://github.com/t3-oss/create-t3-app/pull/1249) [`2432d76`](https://github.com/t3-oss/create-t3-app/commit/2432d76acb337e215743e712d12969b141b22879) Thanks [@juliusmarminge](https://github.com/juliusmarminge)! - chore: bump nextjs
+
+## 7.5.7
+
+### Patch Changes
+
+- [#1232](https://github.com/t3-oss/create-t3-app/pull/1232) [`9c82f86`](https://github.com/t3-oss/create-t3-app/commit/9c82f862f5f5227c48e355a8fc31f83d88b0baeb) Thanks [@juliusmarminge](https://github.com/juliusmarminge)! - fix: bind configs to variables before exporting to make sure typeerrors are reported
+
+## 7.5.6
+
+### Patch Changes
+
+- [#1222](https://github.com/t3-oss/create-t3-app/pull/1222) [`7baa339`](https://github.com/t3-oss/create-t3-app/commit/7baa339b36b40760443083e0a378d8fe04dddb40) Thanks [@juliusmarminge](https://github.com/juliusmarminge)! - fix: detect and handle git bash environment
+
+## 7.5.5
+
+### Patch Changes
+
+- [#1218](https://github.com/t3-oss/create-t3-app/pull/1218) [`4f8d41a`](https://github.com/t3-oss/create-t3-app/commit/4f8d41ae2f41bef197cab13a332034e0ddffc955) Thanks [@bai](https://github.com/bai)! - feat: change eslint config to use `.cjs` format and typecheck it
+
+- [#1217](https://github.com/t3-oss/create-t3-app/pull/1217) [`55c87af`](https://github.com/t3-oss/create-t3-app/commit/55c87af37f64fbf778a5091b9cca75f9c9546468) Thanks [@juliusmarminge](https://github.com/juliusmarminge)! - fix: add autofix to eslint type rule
+
+## 7.5.4
+
+### Patch Changes
+
+- [#1191](https://github.com/t3-oss/create-t3-app/pull/1191) [`aabb9a4`](https://github.com/t3-oss/create-t3-app/commit/aabb9a41aa8acce4b3b02e2341b83cd78b802924) Thanks [@bai](https://github.com/bai)! - Use ~/\* import alias
+
+## 7.5.3
+
+### Patch Changes
+
+- [#1213](https://github.com/t3-oss/create-t3-app/pull/1213) [`ab3c7cb`](https://github.com/t3-oss/create-t3-app/commit/ab3c7cb4d4e78ab646a645bc28b4fe3496ba7831) Thanks [@michalbundyra](https://github.com/michalbundyra)! - fix: update comment regarding schema definition of env vars
+
+## 7.5.2
+
+### Patch Changes
+
+- [#1189](https://github.com/t3-oss/create-t3-app/pull/1189) [`bf12635`](https://github.com/t3-oss/create-t3-app/commit/bf1263576866116a904f3d1fa741c5496a535cb9) Thanks [@p13lgst](https://github.com/p13lgst)! - fix: remove ts-ignores on env.mjs
+
 ## 7.5.1
 
 ### Patch Changes
